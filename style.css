@@ -1,0 +1,196 @@
+*{
+    padding : 0;
+    margin: 0;
+}
+
+
+.Main{
+    height: 100vh;
+    width: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   
+  background-image:linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
+  position: relative;
+
+}
+
+.head{ 
+ 
+ height: 6vh;
+width: 100%;
+right: 15%;
+  position: relative;
+  display: flex;
+  align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+  
+}
+.head:before{
+    content: '';
+    width: 520px;
+    height: 600px;
+    position: absolute;
+    left: 270px;
+   top:68.5%;
+   
+    background-image: url("https://images.unsplash.com/photo-1706907088512-1b11d542b965?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-size: 100%;
+    border-radius:  275px 275px 275px 275px;
+}
+.logo{
+    align-items: center;
+    color: #fffcfc;
+    font-size: 28px;
+   
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: static;
+
+}
+
+
+ nav a{
+    margin : 5%; 
+    text-decoration: none;
+  
+    color: black;
+    font-size: 1.5rem;
+    
+}
+.head nav a:link{
+    color: black;
+}
+.head nav a:visited{
+    color: white;
+}
+.head nav a:hover{
+    border-top:  2px solid #5dade2;
+    border-bottom:  2px solid #5dade2;
+}
+
+.contact_btn {
+    margin-left: 100%;
+    height:10%;
+    width: 6%;
+    align-items: center;
+   border: 2px solid transparent;
+   background-color: #9AC2D6;
+   position: absolute;
+   margin-right: 15%;
+   
+ 
+}
+.contact_btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-style: 18px ;
+    font-weight: 700;
+    padding:5px ;
+    border-radius: 50%;
+    
+   
+    text-transform: capitalize ;
+}
+.contact_btn :hover{
+    background-image: linear-gradient(to bottom, #a7cfdf 0%, #23538a 50%, #fff 100%) !important;
+}
+ 
+ .center{
+    margin-top: 8%;
+    margin-left: 25px;
+    text-align: center;
+   
+ }
+
+ .center h1 {
+    color: aliceblue;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight:700px ;
+    margin-left:  29%;
+    z-index: 2;
+    position: absolute;
+
+ }
+ .center h4 {
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: capitalize;
+    font: weight 1px ;
+    padding-top: 5%;
+    margin-left: 10%;
+   
+   
+    
+ }
+ .center h4::before{
+    content: "";
+    width:18%;
+    margin-top: 1%;
+    left:28.5%;
+    height: auto;
+    border: 2px solid white;
+    position: absolute;
+ }
+ .social-ntwk {
+    width: 20%;
+    height: 50%;
+    margin-left: 78%;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .fav_icon {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+  }
+  
+  .fav_icon a {
+    height: 30%;
+    width: 20%;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #a7cfdf 0%, #23538a 100%);
+    display: inline-block; 
+    justify-content: center; 
+    text-decoration: none;
+    padding-top: 6px;
+  }
+  
+  .fav_icon i {
+    font-size: 30px;
+    color: #eceef0;
+  }
+
+  .fav_icon a:hover {
+  
+    background-image: linear-gradient(to bottom, #a7cfdf 0%, #23538a 50%, #fff 100%) !important;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+  }
+
+.page2{
+  height: 100%;
+  width: 100%;
+}
+
+  .About{
+    height: 100%;
+    width: 100%;
+    background-color: #040405;
+
+  }
+ 
